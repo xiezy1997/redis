@@ -1,4 +1,4 @@
-# Redis C++
+# Redis Client C++
 ## 一、项目介绍
 本项目是基于开源hiredis操作，使用C++语言，对于Redis常用指令进行封装，以便在项目中直接调用RedisClient成员方法即可实现对于Redis数据库操作。
 
