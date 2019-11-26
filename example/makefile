@@ -1,9 +1,7 @@
 GCC = g++
 
-INCLUDE_PATH = -I ../include \
-			   -I /usr/local/include \
-			   -I ../other
-LIB_PATH = ../other/hiredis/libhiredis.a
+INCLUDE_PATH = -I ../include
+LIB_PATH = ../include/hiredis/libhiredis.a
 BIN_PATH = ../bin
 
 SRC_FILE = ../src/redis.cpp ./*.cpp
