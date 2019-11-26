@@ -13,6 +13,10 @@ if [[ $# < 1 ]]; then
     exit
 fi
 
+if [ ! -d "./bin/" ]; then
+    mkdir ./bin
+fi
+
 opt=$1
 
 if  [ $opt == "string" ] || \
